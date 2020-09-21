@@ -1,0 +1,132 @@
+/* Home Page */
+html{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    border-bottom: solid 7px orangered;
+    box-shadow: 5px 5px 5px 5px rgb(0, 0, 0, 0.3);
+    margin: 0;
+    padding: 0;
+    overflow: none;
+}
+
+#headerh1{
+    padding-top: 1rem;
+    padding-bottom: .5rem;
+    text-align: center;
+    font-family: 'Patua One', cursive;
+}
+
+#buttons{
+    margin-left: 32.5rem;
+}
+
+header button{
+    margin-left: .1rem;
+    margin-bottom: 1.5rem;
+    text-decoration: none;
+    background-color: orangered;
+    color: white;
+    width: 12%;
+    height: 30px;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+}
+
+
+/* Home Page Body */
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.bodyh1{
+    padding-top: 7rem;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+}
+
+#homeImg{
+    margin: 4rem 3rem 3rem 12rem;
+    height: auto;
+    width: 30%;
+    border: solid 2px orangered;
+}
+
+p{
+    width: 55%;
+}
+
+p a{
+    color: orangered;
+}
+
+
+/* Courses Page Body */
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.card{
+    margin: 3rem 0rem 0rem 2rem;
+    width: 30%;
+    border: solid 2px orangered;
+    box-shadow: 5px 10px 10px 5px rgb(0, 0, 0, 0.3);
+}
+
+.card img{
+    width: 100%;
+    border-bottom: solid 2px orangered;
+}
+
+.card h4{
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.card p{
+    text-align: center;
+    margin-left: 5.5rem;
+}
+
+.card button{
+    margin: .1rem 0 .5rem 7.5rem;
+    background-color: orangered;
+    color: white;
+    border: none;
+    width: 40%;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+
+/* Contact Page Body */
+
+#contactImg{
+    margin: 4rem 3rem 3rem 12rem;
+    height: 400px;
+    width: 30%;
+    border: solid 2px orangered;
+}
+
+.button{
+    color: white;
+    background-color: orangered;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    box-shadow: 3px 3px 3px 3px rgb(0, 0, 0, 0.3);
+}
+
+#contactP{
+    width: 80%;
+} 
